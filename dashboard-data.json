@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-18T17:52:29.695789+00:00",
+  "updatedAt": "2026-08-18T17:53:57.407740+00:00",
   "runs": [
     {
       "verdict": {
@@ -41,7 +41,7 @@
       ],
       "suppressed": [],
       "discarded": [],
-      "collectedAt": "2026-08-18T17:52:29.695789+00:00",
+      "collectedAt": "2026-08-18T17:53:57.407740+00:00",
       "sourceBranch": "feat/demo",
       "sourceSha": "a1b2c3d4",
       "workflowRunId": "111"
@@ -81,7 +81,7 @@
           "rawTitle": "建议增加集成测试"
         }
       ],
-      "collectedAt": "2026-08-18T17:52:29.695789+00:00",
+      "collectedAt": "2026-08-18T17:53:57.407740+00:00",
       "sourceBranch": "main",
       "sourceSha": "e5f6a7b8",
       "workflowRunId": "222"
@@ -97,7 +97,7 @@
       "findings": [],
       "suppressed": [],
       "discarded": [],
-      "collectedAt": "2026-08-18T17:52:29.695789+00:00",
+      "collectedAt": "2026-08-18T17:53:57.407740+00:00",
       "sourceBranch": "feat/demo",
       "sourceSha": "a1b2c3d4",
       "workflowRunId": "333"
