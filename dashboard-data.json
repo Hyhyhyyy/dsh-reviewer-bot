@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-18T17:49:32.443980+00:00",
+  "updatedAt": "2026-08-18T17:52:29.695789+00:00",
   "runs": [
     {
       "verdict": {
@@ -17,6 +17,7 @@
             "line": 88
           },
           "severity": "blocker",
+          "ruleId": "security/npe",
           "title": "未校验输入空值导致空指针"
         },
         {
@@ -25,6 +26,7 @@
             "line": 132
           },
           "severity": "major",
+          "ruleId": "style/regex-catastrophic",
           "title": "正则回溯风险"
         },
         {
@@ -33,12 +35,13 @@
             "line": 12
           },
           "severity": "minor",
+          "ruleId": "test/integration",
           "title": "建议增加集成测试"
         }
       ],
       "suppressed": [],
       "discarded": [],
-      "collectedAt": "2026-08-18T17:49:32.443980+00:00",
+      "collectedAt": "2026-08-18T17:52:29.695789+00:00",
       "sourceBranch": "feat/demo",
       "sourceSha": "a1b2c3d4",
       "workflowRunId": "111"
@@ -58,6 +61,7 @@
             "line": 40
           },
           "severity": "major",
+          "ruleId": "net/timeout-retry",
           "title": "超时未设置重试上限"
         }
       ],
@@ -77,7 +81,7 @@
           "rawTitle": "建议增加集成测试"
         }
       ],
-      "collectedAt": "2026-08-18T17:49:32.443980+00:00",
+      "collectedAt": "2026-08-18T17:52:29.695789+00:00",
       "sourceBranch": "main",
       "sourceSha": "e5f6a7b8",
       "workflowRunId": "222"
@@ -93,7 +97,7 @@
       "findings": [],
       "suppressed": [],
       "discarded": [],
-      "collectedAt": "2026-08-18T17:49:32.443980+00:00",
+      "collectedAt": "2026-08-18T17:52:29.695789+00:00",
       "sourceBranch": "feat/demo",
       "sourceSha": "a1b2c3d4",
       "workflowRunId": "333"
